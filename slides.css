@@ -1,0 +1,168 @@
+.title {
+    background: rgba(0, 0, 0, 0.6);
+    border: 4px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    color: rgb(19, 218, 236);
+}
+
+html.frontcover .slide-background {
+    /* -webkit-filter: grayscale(100%); */
+    /* filter: grayscale(100%); */
+    /* opacity: 0.2 !important; */
+} 
+
+.authors,
+.affiliations,
+.figures {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.author,
+.affiliation,
+.figure {
+    flex: 10%;
+    padding: 0 4px;
+}
+
+.figure {
+    flex: 32%;
+}
+
+.figure img {
+    height: auto;
+    vertical-align: middle;
+}
+
+.author img {
+    width: 100px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.author div {
+    font-size: 22px;
+    padding: 0px 10px;
+}
+
+.affiliation div {
+    font-size: 12px;
+    padding: 0px 10px;
+    /* display: none; */
+}
+
+
+.affiliation img {
+    height: 30px;
+    width: auto;
+    border: none;
+    vertical-align: middle;
+}
+
+.reveal section img {
+    background: none;
+    border: none;
+    /*box-shadow: none;*/
+    /*max-width: 50%;*/
+    /*max-height: 50%;*/
+}
+
+.reveal h2 {
+    font-size: 1em;
+    color: rgb(19, 218, 236);
+    color: black;
+    /* color: #ef352f; */
+}
+
+.reveal h2.overview {
+    font-size: 3em;
+}
+
+.reveal h3 {
+    font-size: 0.75em;
+}
+
+.reveal h4 {
+    font-size: 0.5em;
+}
+
+.reveal section#start, 
+.reveal section#start h2,
+.reveal section#start h3,
+.reveal section#start h4,
+.reveal section#end, 
+.reveal section#end h2,
+.reveal section#end h3,
+.reveal section#end h4 {
+    color: white;
+}
+
+.reveal section#start a,
+.reveal section#end a {
+    color: white;
+}
+
+.reveal li,
+.reveal p,
+.reveal div p {
+    font-size: 0.5em;
+}
+
+.reveal h1 {
+    font-size: 1em;
+    width: 80%;
+    margin-left: calc((100% - 80%)  / 2); 
+}
+
+.figure {
+    font-size: 1em;
+    padding: 0px 10px;
+}
+
+.cite {
+    font-size: 0.4em;
+    padding: 0px 10px;
+}
+
+
+.themes a{
+    font-size: 0.25em;
+}
+
+.figureLarge img {
+    height: auto;
+    width: 800px;
+    vertical-align: middle;
+}
+
+.reveal section {
+    box-shadow: none;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6,
+.reveal p,
+.reveal div p {
+    text-align: center;
+}
+
+body section {
+    color: black;
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table#t01 td:nth-child(odd) {
+    text-align: right;
+    /* background-color: #aaa; */
+}

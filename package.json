@@ -1,0 +1,22 @@
+{
+  "name": "MediaMappingScripting-IEA-2020",
+  "version": "1.0.0",
+  "description": "MediaMappingScripting IEA 2020",
+  "scripts": {
+    "dev": "reveal-md slides.md --template template.html --css slides.css --watch --port 1948",
+    "pdf": "reveal-md slides.md --template template.html --css slides.css --print slides.pdf",
+    "html": "reveal-md slides.md --template template.html --css slides.css --static-dirs=images,videos --assets-dir=css --static build",
+    "publish": "npm run html && node publish.js"
+  },
+  "author": "Christian Frisson",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "git-repo-info": "^2.1.1",
+    "reveal-md": "git+https://github.com/ChristianFrisson/reveal-md.git#modules"
+  },
+  "dependencies": {
+    "reveal.js-plugins": "git+https://github.com/rajgoel/reveal.js-plugins.git#v3",
+    "reveald3": "^1.5.5"
+  }
+}
