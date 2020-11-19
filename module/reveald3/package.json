@@ -1,0 +1,51 @@
+{
+  "_from": "reveald3@^1.5.5",
+  "_id": "reveald3@1.5.5",
+  "_inBundle": false,
+  "_integrity": "sha512-gp4ufWJg9Tf9f2rbA8EwEJc3dTlEtp8qqiZav4+ACARw+CT92SmAty8rCMHCld6KyPh1YZTLw0UtPt13sLVVxw==",
+  "_location": "/reveald3",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "reveald3@^1.5.5",
+    "name": "reveald3",
+    "escapedName": "reveald3",
+    "rawSpec": "^1.5.5",
+    "saveSpec": null,
+    "fetchSpec": "^1.5.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/reveald3/-/reveald3-1.5.5.tgz",
+  "_shasum": "8619ae1903d029bb0b270c0ed985125edfe826bc",
+  "_spec": "reveald3@^1.5.5",
+  "_where": "/home/christianfrisson/Lab/Material/Slides/2020-11-18-IEA",
+  "author": {
+    "name": "Guillaume Calmettes"
+  },
+  "bugs": {
+    "url": "https://github.com/gcalmettes/reveal.js-d3/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Full integration of animated javascript-based visualizations (D3, vega-lite, semiotic, etc ...) into Reveal.js presentations",
+  "homepage": "https://github.com/gcalmettes/reveal.js-d3#readme",
+  "keywords": [
+    "reveal",
+    "reveal.js",
+    "d3",
+    "d3.js"
+  ],
+  "license": "MIT Copyright (c) 2017 Guillaume Calmettes",
+  "name": "reveald3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcalmettes/reveal.js-d3.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.5.5"
+}
